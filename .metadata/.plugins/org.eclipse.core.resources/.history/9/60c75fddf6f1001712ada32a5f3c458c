@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package com.jikexuyuan.dao.impl;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.jikexuyuan.dao.UserDao;
+import com.jikexuyuan.entity.User;
+
+/**
+ * @author a
+ *
+ */
+public class UserDaoImpl implements UserDao {
+
+	/* (non-Javadoc)
+	 * @see com.jikexuyuan.dao.UserDao#save(java.sql.Connection, com.jikexuyuan.entity.User)
+	 */
+	@Override
+	public void save(Connection connection, User user) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see com.jikexuyuan.dao.UserDao#update(java.sql.Connection, java.lang.Long, com.jikexuyuan.entity.User)
+	 */
+	@Override
+	public void update(Connection connection, Long id, User user) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+	/* (non-Javadoc)
+	 * @see com.jikexuyuan.dao.UserDao#delete(java.sql.Connection, com.jikexuyuan.entity.User)
+	 */
+	@Override
+	public void delete(Connection connection, User user) throws SQLException {
+		// TODO Auto-generated method stub
+
+	}
+
+}

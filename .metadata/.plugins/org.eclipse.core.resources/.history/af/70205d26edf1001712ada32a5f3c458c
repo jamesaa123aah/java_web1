@@ -1,0 +1,5 @@
+package com.jikexuyuan.util;
+
+public class ConnectionFacory {
+
+}

@@ -1,9 +1,0 @@
-package com.exercise.example;
-
-public class TreeNode {
-
-	public TreeNode() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

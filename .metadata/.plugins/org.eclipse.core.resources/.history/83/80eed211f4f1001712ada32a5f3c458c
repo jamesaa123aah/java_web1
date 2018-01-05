@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.jikexuyuan.dao.impl;
+
+/**
+ * @author a
+ *
+ */
+public class UserDaoImpl {
+
+}
