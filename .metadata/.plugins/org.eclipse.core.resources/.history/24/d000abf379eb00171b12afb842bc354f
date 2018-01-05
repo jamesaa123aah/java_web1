@@ -1,0 +1,34 @@
+package com.exercise.example;
+
+public class D {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] a = null;
+		a = new int[10];
+		for (int i = 0; i < a.length; i++) {
+			a[i] = i+1;
+		}
+		
+		D d = new D();
+		H h = d.new H();
+		h.digui(a, 0);
+	}
+	 	 
+	public class H{
+		public H() {
+			// TODO Auto-generated constructor stub
+		}
+	public void digui(int arr[],int index) {
+		
+		if(index!=arr.length){
+		int tem = index+1;
+		digui(arr, tem);
+		}
+		
+		System.out.print(" "+arr[index]);
+		
+	}
+	}
+}
+

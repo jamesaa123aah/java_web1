@@ -1,0 +1,23 @@
+package com.exercise.example;
+
+public class Test {
+
+	public Test() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static void main(String[] args) {
+		
+		MyStack<String> stack = new MyStack<>();
+		stack.enter("32");
+		stack.enter("4243");
+		stack.delete();
+		stack.enter("22222222");
+		stack.enter("21111111");
+		
+		while (stack!=null) {
+			stack.delete();
+			
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package com.exercise.example;
+
+public class Mytree {
+
+	public Mytree() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

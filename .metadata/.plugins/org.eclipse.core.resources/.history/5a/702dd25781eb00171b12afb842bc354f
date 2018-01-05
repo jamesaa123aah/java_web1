@@ -1,0 +1,14 @@
+package com.exercise.example;
+
+public class MyQueue {
+
+	public MyQueue() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

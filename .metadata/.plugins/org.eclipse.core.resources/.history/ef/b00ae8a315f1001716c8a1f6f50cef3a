@@ -1,0 +1,43 @@
+package com.exercise.example;
+
+public class Test {
+
+	public Test() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public static void main(String[] args) {
+		
+//		MyStack<String> stack = new MyStack<>();
+//		stack.enter("32");
+//		stack.enter("4243");
+//		stack.delete();
+//		stack.enter("22222222");
+//		stack.enter("21111111");
+//		
+//		stack.delete();
+//		stack.delete();
+		
+		int[] a = {2,4,6,7,8,9,11,23,45,67};
+		System.out.println(binarySearch(a, 11));
+
+	}
+	 public static int binarySearch(int arr[], int data){
+	     int low = 0;
+	     int high = arr.length-1;
+
+	     while(low <= high){
+	     int mid = (low + high)/2;
+	     if(data == arr[mid]){
+	      return mid;
+	     }else if(data < arr[mid]){
+	      high = mid - 1;
+	     }else{
+	      low = mid + 1;
+	     }
+	     }
+
+	     return -1;
+
+	}
+}
