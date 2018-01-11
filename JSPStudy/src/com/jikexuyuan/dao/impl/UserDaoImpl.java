@@ -5,6 +5,7 @@ package com.jikexuyuan.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import com.jikexuyuan.dao.UserDao;
@@ -66,6 +67,17 @@ public class UserDaoImpl implements UserDao {
 		PreparedStatement preparedStatement = connection.prepareStatement("delete from tbl_user where id=?");
 		preparedStatement.setLong(1, user.getId());
 		preparedStatement.execute();
+	}
+
+	@Override
+	public ResultSet get(Connection connection, User user) throws SQLException {
+		// TODO Auto-generated method stub
+		PreparedStatement preparedStatement = connection.prepareStatement
+				("select * from tbl_user where name = ? and password = ?");
+		preparedStatement.setString(1, user.getName());
+		preparedStatement.setString(2, user.getPassword());
+		
+		return preparedStatement.executeQuery();
 	}
 
 }

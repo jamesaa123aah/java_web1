@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=JSPStudy/src&lt;com.jikexuyuan.entity{IdEntity.java[IdEntity" modifiers="1025" timestamp="1515140757556"/>
+<typeInfo handle="=JSPStudy/src&lt;com.jikexuyuan.entity{IdEntity.java[IdEntity" modifiers="1025" timestamp="1515142823727"/>
 <typeInfo handle="=JSPStudy/src&lt;com.jikexuyuan.dao{UserDao.java[UserDao" modifiers="513" timestamp="1515141502648"/>
+<typeInfo handle="=JSPStudy/G:\/java_web\/apache-tomcat-8.5.24\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServlet.class[HttpServlet" modifiers="1057" timestamp="1511760696000"/>
 </typeInfoHistroy>

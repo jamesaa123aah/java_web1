@@ -21,11 +21,9 @@
 <fullyQualifiedTypeName name="com.exercise.example.Mytree"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicBorders.FieldBorder"/>
 <fullyQualifiedTypeName name="java.beans.Statement"/>
-<fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="com.sun.crypto.provider.RC2Parameters"/>
 <fullyQualifiedTypeName name="java.lang.Class"/>
 <fullyQualifiedTypeName name="java.sql.Statement"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.util.Properties"/>
 <fullyQualifiedTypeName name="java.io.InputStream"/>
 <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
@@ -33,14 +31,18 @@
 <fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="org.apache.catalina.User"/>
 <fullyQualifiedTypeName name="java.lang.Long"/>
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="com.jikexuyuan.test.ConnectionFactoryTest"/>
-<fullyQualifiedTypeName name="com.jikexuyuan.util.ConnectionFacory"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="com.jikexuyuan.dao.UserDao"/>
 <fullyQualifiedTypeName name="com.jikexuyuan.dao.impl.UserDaoImpl"/>
 <fullyQualifiedTypeName name="com.jikexuyuan.entity.User"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.jikexuyuan.util.ConnectionFacory"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
 </qualifiedTypeNameHistroy>

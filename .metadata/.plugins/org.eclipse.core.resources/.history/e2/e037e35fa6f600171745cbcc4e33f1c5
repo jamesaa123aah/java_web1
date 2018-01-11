@@ -1,0 +1,5 @@
+package com.jikexuyuan.service;
+
+public class CheckUserService {
+
+}
