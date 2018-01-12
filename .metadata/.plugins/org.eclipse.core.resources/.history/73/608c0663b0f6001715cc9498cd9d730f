@@ -1,0 +1,5 @@
+package com.jikexuyuan.servlet;
+
+public class CheckServlet {
+
+}

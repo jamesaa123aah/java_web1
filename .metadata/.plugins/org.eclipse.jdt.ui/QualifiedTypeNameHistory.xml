@@ -35,14 +35,15 @@
 <fullyQualifiedTypeName name="com.jikexuyuan.test.ConnectionFactoryTest"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="com.jikexuyuan.dao.UserDao"/>
 <fullyQualifiedTypeName name="com.jikexuyuan.dao.impl.UserDaoImpl"/>
-<fullyQualifiedTypeName name="com.jikexuyuan.entity.User"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="com.jikexuyuan.util.ConnectionFacory"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="com.jikexuyuan.entity.User"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.jikexuyuan.service.CheckUserService"/>
 </qualifiedTypeNameHistroy>
